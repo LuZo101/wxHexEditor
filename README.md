@@ -70,3 +70,4 @@ But there is just HEX allowed:
 
 
 
+# wxHexEditor
