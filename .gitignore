@@ -1,0 +1,14 @@
+# everything inside the build directory
+^build/
+
+# backup files
+*~
+
+*.ii
+*.s
+*.o
+*.out
+*-swp
+
+.directory
+

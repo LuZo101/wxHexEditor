@@ -1,0 +1,28 @@
+# Default EditorConfig
+# see https://editorconfig.org/
+
+# top-most EditorConfig file in this repository
+root = true
+
+[*]
+indent_style = space
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_size = 2
+
+[*.{js,json}]
+
+[*.{py,pyw}]
+indent_size = 4
+
+[*.md]
+max_line_length = 80
+trim_trailing_whitespace = false
+
+[*.tsv]
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab

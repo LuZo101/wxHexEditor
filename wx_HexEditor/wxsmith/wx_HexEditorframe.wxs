@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="wx_HexEditorFrame">
+		<id_arg>0</id_arg>
+		<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+					<object class="wxBoxSizer" variable="BoxSizer2" member="no">
+						<orient>wxVERTICAL</orient>
+						<object class="sizeritem">
+							<object class="wxTextCtrl" name="ID_TEXTCTRLASCII" variable="TextCtrlAscii" member="yes">
+								<value>Text content</value>
+								<minsize>400,100d</minsize>
+								<style>wxTE_MULTILINE</style>
+								<handler function="OnTextCtrlAsciiText" entry="EVT_TEXT" />
+							</object>
+							<flag>wxALL</flag>
+							<border>5</border>
+						</object>
+						<object class="sizeritem">
+							<object class="wxTextCtrl" name="ID_TEXTCTRLHEX" variable="TextCtrlHEX" member="yes">
+								<value>HEX representation</value>
+								<minsize>400,100d</minsize>
+								<style>wxTE_MULTILINE</style>
+								<handler function="OnTextCtrlHEXText" entry="EVT_TEXT" />
+							</object>
+							<flag>wxALL</flag>
+							<border>5</border>
+						</object>
+					</object>
+				</object>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+			</object>
+		</object>
+	</object>
+</wxsmith>
